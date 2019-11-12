@@ -8,6 +8,7 @@ abstract class Animal {
   }
 }
 
+
 trait Cat extends Animal {
   override def run(): Unit = {
     println(s"Hello my name is cat and name is $name")
